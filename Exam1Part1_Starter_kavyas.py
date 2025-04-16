@@ -102,7 +102,6 @@ def run_part1():
 
     df["horsepower"]=df["horsepower"].astype(int, copy=True)
 
-    %matplotlib inline
     import matplotlib as plt
     from matplotlib import pyplot
     plt.pyplot.hist(df["horsepower"])
