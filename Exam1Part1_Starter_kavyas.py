@@ -180,3 +180,4 @@ def run_part1():
     rows,columns = df.shape
     print('rows', rows)
     print('columns', columns)
+    st.pyplot(fig)
