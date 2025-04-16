@@ -121,7 +121,6 @@ def run_part1():
 
     df["horsepower-binned"].value_counts()
 
-    %matplotlib inline
     import matplotlib as plt
     from matplotlib import pyplot
     pyplot.bar(group_names, df["horsepower-binned"].value_counts())
@@ -131,7 +130,6 @@ def run_part1():
     plt.pyplot.ylabel("count")
     plt.pyplot.title("horsepower bins")
 
-    %matplotlib inline
     import matplotlib as plt
     from matplotlib import pyplot
 
