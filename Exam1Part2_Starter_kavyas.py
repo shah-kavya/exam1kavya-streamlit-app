@@ -11,7 +11,6 @@ def run_part2():
 
     import matplotlib.pyplot as plt
     import seaborn as sns
-    %matplotlib inline
 
     # list the data types for each column
     print(df.dtypes)
@@ -99,7 +98,6 @@ def run_part2():
 
 
     import matplotlib.pyplot as plt
-    %matplotlib inline
 
     #use the grouped results
     plt.pcolor(grouped_pivot, cmap='RdBu')
