@@ -1,6 +1,6 @@
 import streamlit as st
-from Exam1Part1_Starter_kavya (2) import run_part1
-from Exam1Part2_Starter_kavya (2) import run_part2
+from Exam1Part1_Starter_kavyas import run_part1
+from Exam1Part2_Starter_kavyas import run_part2
 
 st.title("Automobile Data Analysis")
 
